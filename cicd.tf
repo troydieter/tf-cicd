@@ -6,3 +6,5 @@ resource "aws_codecommit_repository" "tf_cicd_scm" {
   description     = "Terraform CICD Repository"
   tags = local.common-tags
 }
+
+# CodePipeline
